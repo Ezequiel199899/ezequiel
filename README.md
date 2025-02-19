@@ -1,4 +1,35 @@
-<header>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora de Patrimonio Neto</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Calculadora de Patrimonio Neto</h1>
+  <div class="container">
+    <div class="input-group">
+      <label for="mercaderia">Valor de la Mercadería (ARS):</label>
+      <input type="number" id="mercaderia" value="202000000">
+    </div>
+    <div class="input-group">
+      <label for="dolares1">Dólares (1230 ARS/USD):</label>
+      <input type="number" id="dolares1" value="10000">
+    </div>
+        <div class="input-group">
+      <label for="dolares2">Dólares (1300 ARS/USD):</label>
+      <input type="number" id="dolares2" value="50000">
+    </div>
+    <div class="input-group">
+      <label for="reales">Reales (5.70 ARS/BRL):</label>
+      <input type="number" id="reales" value="2500">
+    </div>
+    <button id="calcular">Calcular</button>
+    <div id="resultado"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+202000000<header>
 
 <!--
   <<< Author notes: Course header >>>
